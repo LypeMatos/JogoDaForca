@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaCadastro_style.css">
+    <title>Cadastro</title>
+</head>
+<body>    
+    <div class="container">
+        <h1>JOGO DA FORCA</h1>
+        <img src="./img/backgoundpng.png" alt="lousa">
+        <form action="">
+            <div class="input">
+                <label for="txtNome">Nome: </label>
+                <input type="text" name="txtNome" id="txtNome" required>
+                <span class="error"></span>
+            </div>
+            <div class="input">
+                <label for="txtEmail">E-mail: </label>
+                <input type="email" name="txtEmail" id="txtEmail" required>
+                <span class="error"></span>
+            </div>
+            <div class="input">
+                <label for="txtSenha">Senha: </label>
+                <input type="password" name="txtSenha" id="txtSenha" required>
+                <span class="error"></span>
+            </div>        
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>   
+    <script src="cadastro.js"></script>    
+</body>
+</html>

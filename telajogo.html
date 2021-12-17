@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaJogo_style.css">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imagemFundo">
+            <img src="./img/backgoundpng.png" alt="lousa" id="lousa">
+            <div class="forca">
+                <img src="./img/forca_vazia.png" alt="forca" id="forca">
+                <p id="palavra"></p>
+            </div>
+            <div class="input">
+                <h1>CATEGORIA:</h1>
+                <h1 id="categoria"></h1>
+                <label for="txtletra">Digite uma letra: </label> <br>
+                <input type="text" name="txtletra" id="txtletra" maxlength="1">                
+                <p class="letraErrada">Letras erradas: </p>
+                <p class="letraErrada" id="letraErrada"></p>
+            </div>                             
+        </div>             
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>

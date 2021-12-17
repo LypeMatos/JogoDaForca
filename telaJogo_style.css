@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{     
+    width: auto;
+    height: 100vh;
+    display: flex;
+}
+
+.imagemFundo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.forca{
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    width: auto;
+    height: 400px;
+}
+
+.input{
+    top: 30%;
+    left: 60%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#categoria{
+    padding-bottom: 60px;
+    font-size: 2rem;
+}
+
+#txtletra{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 4px solid white;
+    padding: 2px;
+    margin-top: 30px;
+    width: 50px;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'GrutchShaded';
+    color: white;
+}
+
+#palavra{
+    position: absolute;
+    top: 53%;
+    left: 28%;
+    font-size: 50px;    
+}
+
+label{
+    font-size: 2rem;    
+}
+
+.letraErrada{
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+#lousa{
+    width: 100%;    
+}
+
+h1, p, label {
+    font-family: 'GrutchShaded';
+    color: white;
+}
+
+#forca{
+    width: 100%;
+    height: 90%;
+}
